@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let c = prompt("enter the operator(+,-,*,/)")
+        function calculator(a, b,operator) {
+            switch (operator) {
+                case '+':
+                    return a + b;
+                    break;
+                case '-':
+                    return a - b;
+                    break;
+                case '*':
+                    return a * b;
+                    break;
+                case '/':
+                    return a / b;
+                    break;
+                default:
+                    console.log("invalid operator");
+                    break;
+            }
+        }
+        let a = parseInt(prompt("enter the first number"));
+        let b = parseInt(prompt("enter the second number"));    
+
+        let ok = calculator(a,b,c);
+        console.log(ok);
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
